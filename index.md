@@ -19,3 +19,10 @@ layout: default
 
 * [ops.js](https://openphacts.github.io/ops.js/)
 * [ops-crs](https://openphacts.github.io/ops-crs/)
+
+## Wikis
+
+* [OPS_LinkedDataApi](http://github.com/openphacts/OPS_LinkedDataApi/wiki/)
+* [explorer2](http://github.com/openphacts/explorer2/wiki/)
+* [ops-platform-setup](http://github.com/openphacts/ops-platform-setup/wiki/)
+* [ops-search](http://github.com/openphacts/ops-search/wiki/)
