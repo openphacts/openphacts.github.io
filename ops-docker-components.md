@@ -1,5 +1,5 @@
 ---
-title: ops-docker-Components
+title: ops-docker
 layout: page
 ---
 
