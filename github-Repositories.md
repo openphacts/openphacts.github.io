@@ -5,8 +5,7 @@ layout: page
 
 # openphacts github Repositories
 
-| [Edit this page](https://github.com/openphacts/openphacts.github.io/edit/master/github-Repositories.md) |
-|  -------------- |
+[Edit this page](https://github.com/openphacts/openphacts.github.io/edit/master/github-Repositories.md) 
 
 ## [ops-docker](http://github.com/openphacts/ops-docker)
 
