@@ -15,10 +15,23 @@ layout: default
 
 <!-- {{ "https://openphacts.github.io/ops.js/" | absolute_url }} -->
 
-### Individual Open PHACTS Repo/projects with github-pages websites:
+## Info Pages
 
-* [ops.js](https://openphacts.github.io/ops.js/)
-* [ops-crs](https://openphacts.github.io/ops-crs/)
+* [List of Open PHACTS github repositories](/github-Repositories)
+* [ops-docker docker components](/ops-docker-components)
+* [Docker images at hub.docker.com](/Docker-Hub-Images)
+* [OPS GitHub repos + dependencies](/Repo-Dependencies)
+
+## Guides
+
+* [Installing Open PHACTS](http://github.com/openphacts/ops-docker/blob/master/README.md)
+* [Loading additional data](/Loading-additional-data)
+
+
+## Individual Open PHACTS Repo/projects with github-pages websites:
+
+* [ops.js](http://openphacts.github.io/ops.js/)
+* [ops-crs](http://openphacts.github.io/ops-crs/)
 
 ## Wikis
 
