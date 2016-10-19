@@ -28,7 +28,7 @@ layout: default
 * [Loading additional data](/Loading-additional-data)
 
 
-## Individual Open PHACTS Repo/projects with github-pages websites:
+## Projects with github-pages websites:
 
 * [ops.js](http://openphacts.github.io/ops.js/)
 * [ops-crs](http://openphacts.github.io/ops-crs/)
