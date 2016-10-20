@@ -5,6 +5,11 @@ layout: page
 
 ## BridgeDB
 
+[in GitHub](https://github.com/bridgedb/BridgeDb)
+
+Java project.  For mapping identifiers (in databases) to each other.  Used by IdentityMappingService.
+
+
 ## ConceptWiki
 
 ## IRS (Identity Resolution Service)
