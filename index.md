@@ -13,6 +13,9 @@ layout: default
 
 # Open PHACTS github home page
 
+
+[Edit this page](https://github.com/openphacts/openphacts.github.io/edit/master/index.md) 
+
 <!-- {{ "https://openphacts.github.io/ops.js/" | absolute_url }} -->
 
 ## Info Pages
