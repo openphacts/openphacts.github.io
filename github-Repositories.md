@@ -144,6 +144,8 @@ Chemistry
 
 ## [ops_gems](http://github.com/openphacts/ops_gems)
 
+Ruby gems.
+
 
 ## [QAWorkflows](http://github.com/openphacts/QAWorkflows)
 
@@ -158,6 +160,29 @@ Chemistry
 ## [ld-r](http://github.com/openphacts/ld-r)
 
 Linked Data Reactor.  **Forked** from ali1k/ld-r
+
+
+## [JavaLDAClient](http://github.com/openphacts/JavaLDAClient)
+
+A simple Scala + Java test app that wraps a few example calls to the Linked Data API and pulls content out of the returned JSON.
+
+Scala, Java, 2013
+
+
+## [Void-Editor2](http://github.com/openphacts/Void-Editor2)
+
+css
+2016.05
+
+
+## [Void-Editor](http://github.com/openphacts/Void-Editor)
+
+2012
+
+
+## [Validator](http://github.com/openphacts/Validator)
+
+> The Void Validator, stripped out of the BridgeDb project, exposed via a web service.
 
 
 ## [openphacts-vis-compoundinfo](http://github.com/openphacts/openphacts-vis-compoundinfo)
@@ -237,28 +262,6 @@ Issues
 > API methods, with color-coded markup in HTML.
 
 2013
-
-
-## [JavaLDAClient](http://github.com/openphacts/JavaLDAClient)
-
-2013
-Scala, Play(?)
-
-
-## [Void-Editor2](http://github.com/openphacts/Void-Editor2)
-
-css
-2016.05
-
-
-## [Void-Editor](http://github.com/openphacts/Void-Editor)
-
-2012
-
-
-## [Validator](http://github.com/openphacts/Validator)
-
-> The Void Validator, stripped out of the BridgeDb project, exposed via a web service.
 
 
 ## [OpsPlatform](http://github.com/openphacts/OpsPlatform)
