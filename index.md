@@ -14,7 +14,7 @@ layout: default
 # Open PHACTS github home page
 
 
-[Edit this page](https://github.com/openphacts/openphacts.github.io/edit/master/index.md) 
+> To visit and edit the source files of this website go to: [https://github.com/openphacts/openphacts.github.io/](https://github.com/openphacts/openphacts.github.io/)
 
 <!-- {{ "https://openphacts.github.io/ops.js/" | absolute_url }} -->
 
