@@ -11,17 +11,20 @@ layout: default
 # title: Override with new title
 ---
 
-# Open PHACTS github home page
+# Open PHACTS Development
 
 
-> To visit and edit the source files of this website go to: [https://github.com/openphacts/openphacts.github.io/](https://github.com/openphacts/openphacts.github.io/)
+> To visit and edit the source files of this website at github go to: [https://github.com/openphacts/openphacts.github.io/](https://github.com/openphacts/openphacts.github.io/)
 
 <!-- {{ "https://openphacts.github.io/ops.js/" | absolute_url }} -->
 
-## Info Pages
+## Projects and Components
 
-* [List of Open PHACTS github repositories](/github-Repositories)
+* [List of Open PHACTS github projects](/github-Repositories)
 * [List of external projects](/External-Components)
+
+## Descriptions, Diagrams.
+
 * [ops-docker docker components](/ops-docker-components)
 * [Docker images at hub.docker.com](/Docker-Hub-Images)
 * [OPS GitHub repos + dependencies](/Repo-Dependencies)
@@ -32,14 +35,19 @@ layout: default
 * [Loading additional data](/Loading-additional-data)
 
 
-## Projects with github-pages websites:
+## Projects with own "GitHub Pages" websites:
 
 * [ops.js](http://openphacts.github.io/ops.js/)
 * [ops-crs](http://openphacts.github.io/ops-crs/)
 
-## Wikis
+## Projects with GitHub Wikis
 
 * [OPS_LinkedDataApi](http://github.com/openphacts/OPS_LinkedDataApi/wiki/)
 * [explorer2](http://github.com/openphacts/explorer2/wiki/)
 * [ops-platform-setup](http://github.com/openphacts/ops-platform-setup/wiki/)
 * [ops-search](http://github.com/openphacts/ops-search/wiki/)
+
+
+## Docker Images
+
+* [Open PHACTS images at Docker Hub](https://hub.docker.com/u/openphacts/)
