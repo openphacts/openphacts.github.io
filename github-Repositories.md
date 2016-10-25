@@ -5,12 +5,10 @@ layout: page
 
 # openphacts github Repositories
 
-[Edit this page](https://github.com/openphacts/openphacts.github.io/edit/master/github-Repositories.md) 
+[visit/edit this page at github](https://github.com/openphacts/openphacts.github.io/blob/master/github-Repositories.md) 
 
 
 ## [ops-docker](http://github.com/openphacts/ops-docker)
-
-https://github.com/openphacts/ops-docker
 
 A [Docker Compose](https://docs.docker.com/compose/) configuration to bring to life the Open PHACTS platform on Docker.
 
@@ -35,6 +33,44 @@ has 2.0.0 branch, no 2.1.
 platform w/o data
 
 
+## [OPS_LinkedDataApi](http://github.com/openphacts/OPS_LinkedDataApi)
+
+PHP implemenation of the Open PHACTS API.
+
+Directory `api-config-files` contains Puelia templates.
+
+PHP Dependencies:
+
+- Puelia
+- Moriarity
+- ARC
+
+Web Service Dependencies:  
+
+- queryExpander
+- IMS
+
+
+## [queryExpander](http://github.com/openphacts/queryExpander)
+
+Java.  Last edited 2016/04.
+
+The Standalone Query Expander.
+
+Depends on repos:  
+
+* [BridgeDb](https://github.com/openphacts/BridgeDb)
+* [Validator](https://github.com/openphacts/Validator)
+* [IdentityMappingService](https://github.com/openphacts/IdentityMappingService)
+
+
+## [IdentityMappingService](http://github.com/openphacts/IdentityMappingService)
+
+Java application and web service to obtain URI mappings.
+
+Last commit: 2016/04
+
+
 ## [explorer2](http://github.com/openphacts/explorer2)
 
 >The Open PHACTS Explorer is an HTML5 & CSS3 application for chemical information discovery and browsing. It is used to search for chemical compound and target information using a web  search interface.
@@ -50,18 +86,13 @@ Uses / depends-on:
 * [OPS_LinkedDataApi repo](http://github.com/openphacts/OPS_LinkedDataApi) (Linked Data API)
 
 
-## [ops.js](http://github.com/openphacts/ops.js)
+## [ops-crs](http://github.com/openphacts/ops-crs)
 
-> Javascript based API with methods used to access the Open PHACTS Discovery Platform and parse
-> the responses
+top-level
 
-2016.01
+Chemistry
 
-has Dockerfile for testing
-
-* Used by `explorer2` and `ops-html-widgets` and http://www.biojs.io/d/openphacts-vis-compoundinfo
-* Published on https://www.npmjs.com/package/ops.js 
-* Can be executed standalone as it includes comprehensive tests of API (using node.js)
+2016.07
 
 
 ## [ops-search](http://github.com/openphacts/ops-search)
@@ -71,32 +102,26 @@ ElasticSearch-based search service for Open PHACTS, previously called "IRS2".
 has Dockerfile
 
 
-## [queryExpander](http://github.com/openphacts/queryExpander)
+## [ops.js](http://github.com/openphacts/ops.js)
 
-2016.04
-Java
+> Javascript based API with methods used to access the Open PHACTS Discovery Platform and parse
+> the responses
 
-The Standalone Query Expander.
+JavaScript, last edited 2016/01.
 
-Depends on repos:  
-* [BridgeDb](https://github.com/openphacts/BridgeDb)
-* [Validator](https://github.com/openphacts/Validator)
-* [IdentityMappingService](https://github.com/openphacts/IdentityMappingService)
+has Dockerfile for testing
 
-
-## [OPS_LinkedDataApi](http://github.com/openphacts/OPS_LinkedDataApi)
+* Used by `explorer2` and `ops-html-widgets` and http://www.biojs.io/d/openphacts-vis-compoundinfo
+* Published on https://www.npmjs.com/package/ops.js 
+* Can be executed standalone as it includes comprehensive tests of API (using node.js)
 
 
-## [IdentityMappingService](http://github.com/openphacts/IdentityMappingService)
+----
 
-2016.04
-Java
+Data and Linksets
+--------
 
-
-## [conceptwiki-docker](http://github.com/openphacts/conceptwiki-docker)
-
-August 2015
-
+----
 
 ## [ops-surechembl-linksets](http://github.com/openphacts/ops-surechembl-linksets)
 
@@ -118,15 +143,6 @@ August 2015
 > Testing of IMS linksets in Open PHACTS
 
 
-## [ops-crs](http://github.com/openphacts/ops-crs)
-
-top-level
-
-Chemistry
-
-2016.07
-
-
 ## [ops-rsc-surechembl-dataset](http://github.com/openphacts/ops-rsc-surechembl-dataset)
 
 ## [ops-rsc-wikipathways-dataset](http://github.com/openphacts/ops-rsc-wikipathways-dataset)
@@ -141,6 +157,14 @@ Chemistry
 
 
 ## [ops-ncats-opdsr-rdf](http://github.com/openphacts/ops-ncats-opdsr-rdf)
+
+
+----
+
+
+## [conceptwiki-docker](http://github.com/openphacts/conceptwiki-docker)
+
+August 2015
 
 
 ## [ops_gems](http://github.com/openphacts/ops_gems)
