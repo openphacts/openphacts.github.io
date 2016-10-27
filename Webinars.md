@@ -1,6 +1,6 @@
 ---
-title: Webinars
 layout: page
+exclude_from_nav: true
 ---
 
 Webinars:

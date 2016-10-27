@@ -1,5 +1,5 @@
 ---
-title: Add-Data
+exclude_from_nav: true
 layout: page
 ---
 

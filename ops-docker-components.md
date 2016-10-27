@@ -1,6 +1,6 @@
 ---
-title: ops-docker
 layout: page
+exclude_from_nav: true
 ---
 
 This diagram shows the dependencies between the docker services (containers), images, and build processes.

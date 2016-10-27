@@ -1,6 +1,6 @@
 ---
-title: Docker-Images
 layout: page
+exclude_from_nav: true
 ---
 
 Open PHACTS images stored in Docker Hub:  [http://hub.docker.com/u/openphacts]
