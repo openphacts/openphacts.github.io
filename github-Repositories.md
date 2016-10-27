@@ -1,11 +1,20 @@
 ---
-title: Repos
+title: Projects
 layout: page
 ---
 
 # openphacts github Repositories
 
 [visit/edit this page at github](https://github.com/openphacts/openphacts.github.io/blob/master/github-Repositories.md) 
+
+
+
+----
+
+Assembly of Open PHACTS Projects
+---------------
+
+----
 
 
 ## [ops-docker](http://github.com/openphacts/ops-docker)
@@ -32,6 +41,12 @@ has 2.0.0 branch, no 2.1.
 
 platform w/o data
 
+
+----
+
+Core Open PHACTS Components
+---------------
+----
 
 ## [OPS_LinkedDataApi](http://github.com/openphacts/OPS_LinkedDataApi)
 
@@ -63,6 +78,8 @@ Depends on repos:
 * [Validator](https://github.com/openphacts/Validator)
 * [IdentityMappingService](https://github.com/openphacts/IdentityMappingService)
 
+[Query Expander Demo Page](http://ops2.few.vu.nl/QueryExpander)
+
 
 ## [IdentityMappingService](http://github.com/openphacts/IdentityMappingService)
 
@@ -88,12 +105,28 @@ Uses / depends-on:
 
 ## [ops-crs](http://github.com/openphacts/ops-crs)
 
-top-level
+The sources of the Royal Society of Chemistry's (RSC) Chemical Registration Service (CRS).
 
-Chemistry
+The CRS is a top-level component of the Open PHACTS platform.  However, it is not part of the Open
+PHACTS distribution.  Rather, it's functionality is provided via web apps running at
+http://www.rsc.org.
 
-2016.07
+The `/structure` commands of the Open PHACTS API are forwarded to the CRS web app.  Thus those
+commands will fail if you are not connected to the internet.
 
+The CRS is a Microsoft .NET and C# web application.
+
+[Chemical Structure Search](https://dev.openphacts.org/docs/2.1#!/Chemical_structure_search)
+
+Last updated: 2016/07
+
+
+----
+
+Projects based on Open PHACTS
+---------------
+
+----
 
 ## [ops-search](http://github.com/openphacts/ops-search)
 
@@ -115,11 +148,13 @@ has Dockerfile for testing
 * Published on https://www.npmjs.com/package/ops.js 
 * Can be executed standalone as it includes comprehensive tests of API (using node.js)
 
+Available as an npm package (for 1.5): <https://www.npmjs.com/package/ops.js>
+
 
 ----
 
 Data and Linksets
---------
+---------------
 
 ----
 
