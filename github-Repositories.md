@@ -96,7 +96,8 @@ Last updated: 2015/11
 
 Has Dockerfile. Has Docker image [openphacts/explorer2](https://registry.hub.docker.com/u/openphacts/explorer2/).
 
-Uses / depends-on:  
+Uses / depends-on:
+
 * Ruby on Rails
 * Ember JS
 * [ops.js repo](http://github.com/openphacts/ops.js)
@@ -282,9 +283,8 @@ css
 ## [PM](http://github.com/openphacts/PM)
 
 Issues
-**Private**
 
-2014
+**Private** 2014
 
 
 ## [Hosting](http://github.com/openphacts/Hosting)
@@ -306,7 +306,7 @@ Issues (1)
 
 Issues
 **Private**
-2016.09
+2016/09
 
 
 ## [Documentation](http://github.com/openphacts/Documentation)
