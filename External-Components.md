@@ -1,6 +1,7 @@
 ---
-title: External
+# title: External
 layout: page
+exclude_from_nav: true
 ---
 
 ## BridgeDB

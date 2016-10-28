@@ -1,6 +1,7 @@
 ---
-title: Projects
+# title: Projects
 layout: page
+exclude_from_nav: true
 ---
 
 # openphacts github Repositories

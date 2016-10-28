@@ -1,6 +1,7 @@
 ---
-title: Dependencies
+# title: Dependencies
 layout: page
+exclude_from_nav: true
 ---
 
 Diagram of Open PHACTS GitHub repositories and dependencies.
