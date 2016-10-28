@@ -93,6 +93,8 @@ Open PHACTS at RSC: [http://ops.rsc.org](http://ops.rsc.org)
 
 ## ChemSpider
 
+[www](http://www.chemspider.com)
+
 A database and web service providing information on chemicals, with an emphasis on chemical
 structure.  An aggregator.  Created and maintained by RSC (Royal Society of Chemistry).
 
@@ -106,6 +108,35 @@ ChemSpider core compound identifier = InChI-Key.
 
 Chemical Validation and Standardization Platform.
 
+From Royal Society of Chemistry. Associated with ChemSpider.
+
+[www](http://cvsp.chemspider.com)
+
 [paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4494041/)
 
-For validating chemical records.  ~100 rules.  Finds errors and inconsitencies.
+For validating chemical records.  ~100 rules (can add your own).  Finds errors and inconsitencies.
+Used to improve the quality of *compound* data in CRS and ChemSpider.  Difficult to manually
+curate the quantity of chemical data in Compound database.
+
+
+## OPCS
+
+Open PHACTS Chemistry Service (or is it Chemical Structure?).
+
+A legacy name given to the CRS web app that the Open PHACTS API calls to execute chemistry structure
+queries.
+
+
+## OPCR
+
+Open PHACTS Chemistry Registry (or is it Chemical Registry, or Registraction?).
+
+A legacy name given to the CRS web app used to validate and update the RSC chemistry
+data. Essentially an alias for CVSP.
+
+
+## CRS Compounds
+
+The CRS database where its chemistry data is stored. Validated and updated by CVSP.  At runtime,
+Open PHACTS API chemistry structure commands sent to CRS (the OPCS part of CRS) will access the
+data stored in the "Compounds" database.
