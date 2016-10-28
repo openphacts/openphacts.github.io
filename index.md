@@ -33,6 +33,12 @@ layout: default
 * [Installing Open PHACTS](http://github.com/openphacts/ops-docker/blob/master/README.md)
 * [Loading additional data](/Loading-additional-data)
 
+## Software and Data Artifacts
+
+* [openphacts on GitHub](http://github.com/openphacts)
+* [Open PHACTS images at Docker Hub](https://hub.docker.com/u/openphacts/)
+* [Artifactory](https://data.openphacts.org/webapp/#/artifacts/browse/tree/General/)
+
 ## Projects with own "GitHub Pages" websites:
 
 * [ops.js](http://openphacts.github.io/ops.js/)
@@ -44,12 +50,6 @@ layout: default
 * [explorer2](http://github.com/openphacts/explorer2/wiki/)
 * [ops-platform-setup](http://github.com/openphacts/ops-platform-setup/wiki/)
 * [ops-search](http://github.com/openphacts/ops-search/wiki/)
-
-## Software and Data Artifacts
-
-* [openphacts on GitHub](http://github.com/openphacts)
-* [Open PHACTS images at Docker Hub](https://hub.docker.com/u/openphacts/)
-* [Artifactory](https://data.openphacts.org/webapp/#/artifacts/browse/tree/General/)
 
 ## Other Resources
 
