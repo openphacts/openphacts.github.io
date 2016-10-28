@@ -30,6 +30,7 @@ layout: default
 * [Docker images at hub.docker.com](/Docker-Hub-Images)
 * [Project dependencies](/Repo-Dependencies)
 * [Linksets](/linksets)
+* [All Diagrams in one page](/All-Diagrams)
 
 ## Guides
 
@@ -63,3 +64,4 @@ layout: default
 * [Forum](http://support.openphacts.org/support/discussions)
 * [Wiki](https://wiki.openphacts.org/index.php/OpenPhacts:Community_Portal)
 * [Webinars](/Webinars)
+
