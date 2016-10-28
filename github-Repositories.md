@@ -121,17 +121,19 @@ The CRS is a Microsoft .NET and C# web application.
 
 Last updated: 2016/07
 
+Currently "broken" (2016/10).
+
 
 ----
 
-Projects based on Open PHACTS
+Projects using Open PHACTS
 ---------------
 
 ----
 
 ## [ops-search](http://github.com/openphacts/ops-search)
 
-ElasticSearch-based search service for Open PHACTS, previously called "IRS2".
+ElasticSearch-based search service for Open PHACTS, previously called "IRS2".  Under development.
 
 has Dockerfile
 
@@ -150,6 +152,21 @@ has Dockerfile for testing
 * Can be executed standalone as it includes comprehensive tests of API (using node.js)
 
 Available as an npm package (for 1.5): <https://www.npmjs.com/package/ops.js>
+
+
+## [OPS-Knime](http://github.com/openphacts/OPS-Knime)
+
+
+## [ops_gems](http://github.com/openphacts/ops_gems)
+
+Ruby gems.
+
+
+## [JavaLDAClient](http://github.com/openphacts/JavaLDAClient)
+
+A simple Scala + Java test app that wraps a few example calls to the Linked Data API and pulls content out of the returned JSON.
+
+Scala, Java, 2013
 
 
 ----
@@ -197,15 +214,15 @@ Data and Linksets
 
 ----
 
+The Rest
+---------------
+
+----
+
 
 ## [conceptwiki-docker](http://github.com/openphacts/conceptwiki-docker)
 
 August 2015
-
-
-## [ops_gems](http://github.com/openphacts/ops_gems)
-
-Ruby gems.
 
 
 ## [QAWorkflows](http://github.com/openphacts/QAWorkflows)
@@ -215,19 +232,9 @@ Ruby gems.
 > Workflows for the testing the data and filters from the Open PHACTS API
 
 
-## [OPS-Knime](http://github.com/openphacts/OPS-Knime)
-
-
 ## [ld-r](http://github.com/openphacts/ld-r)
 
 Linked Data Reactor.  **Forked** from ali1k/ld-r
-
-
-## [JavaLDAClient](http://github.com/openphacts/JavaLDAClient)
-
-A simple Scala + Java test app that wraps a few example calls to the Linked Data API and pulls content out of the returned JSON.
-
-Scala, Java, 2013
 
 
 ## [Void-Editor2](http://github.com/openphacts/Void-Editor2)
