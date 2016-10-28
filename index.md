@@ -29,6 +29,7 @@ layout: default
 * [OPS architecture](/architecture)
 * [Docker images at hub.docker.com](/Docker-Hub-Images)
 * [OPS GitHub repos + dependencies](/Repo-Dependencies)
+* [Linksets](/linksets)
 
 ## Guides
 
