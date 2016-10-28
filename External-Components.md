@@ -11,18 +11,47 @@ Java project.  For mapping identifiers (in databases) to each other.  Used by IM
 ([Identity Mapping Service](https://github.com/openphacts/IdentityMappingService)).
 
 
-## ConceptWiki
-
 ## IRS (Identity Resolution Service)
 
-Note found in 'ops-search' github project: ops-search replaces IRS2.
+Conceptual conponent that helps users find a proper URI identifier for some entity they want to
+use in Open PHACTS.
+
+Input = a String from the user
+Output = a list of candidate URI identifiers along with the basic type (e.g., Compound, Protein, Pathway) of that entity.
+
+Scenario:  User wants to call an Open PHACTS query about Aspirin.  However, to use most API
+calls, the user needs to know a URI for Aspirin.  They will then enter the string "Aspirin" into
+IRS and get back a list of URIs associated with the value "Aspirin".  The user will browse the
+list of results and select a URI to use in future API calls.
+
+The initial implementation of IRS is based on ConceptWiki.
+
+The second implementation of IRS is based on ElasticSearch.  See the "ops-search" github
+project:  [ops-search](http://github.com/openphacts/ops-search).
+
+
+## ConceptWiki
+
+System for associating terms with identifiers and categories, finding synonyms.
+
+Used in the initial implementation of Open PHACTS IRS.
+
+From NBIC. Project is mostly dormant.  Not updated since 2013-2014.
+
+
+## ElasticSearch
+
+[www](https://www.elastic.co/products)
+
+For free-text searching.  Based on Lucene.  Technology upon with new version of Open PHACTS's
+IRS (Identity Resolution Service) is based.  See
+[ops-search](http://github.com/openphacts/ops-search).
 
 
 ## Puelia-php
 
 An implementation of the "Linked Data API".  Used by the Open PHACTS Linked Data API (github
 project = "OPS_LinkedDataApi").
-
 
 [Puelia at github](https://github.com/kwijibo/puelia)
 
@@ -49,18 +78,28 @@ Uses Moriarity to make requests to SPARQL endpoints. And cache the responses it 
 Moriarty is a simple PHP library for accessing the Talis Platform. And working with SPARQL and RDF.
 
 
-## ChemSpider
-
-A database and web service providing information on chemicals.  Created and maintained by RSC (Royal Society of Chemistry).
-
-
 ## CRS
 
 The RSC "Chemical Registration Service".
 
+CRS = ChemSpider + CVSP + Compounds (?)
+
 Q: How much of the RSC software (CRS, CVSP, etc.) required by Open PHACTS covered by the "ops-crs" project?
 
 [ops-crs GitHub project](https://github.com/openphacts/ops-crs/)
+
+Open PHACTS at RSC: [http://ops.rsc.org](http://ops.rsc.org)
+
+
+## ChemSpider
+
+A database and web service providing information on chemicals, with an emphasis on chemical
+structure.  An aggregator.  Created and maintained by RSC (Royal Society of Chemistry).
+
+Millions of compounds.  Combines hundreds of datasets.  Difficult to manually curate that much
+data.
+
+ChemSpider core compound identifier = InChI-Key.
 
 
 ## CVSP
@@ -68,3 +107,5 @@ Q: How much of the RSC software (CRS, CVSP, etc.) required by Open PHACTS covere
 Chemical Validation and Standardization Platform.
 
 [paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4494041/)
+
+For validating chemical records.  ~100 rules.  Finds errors and inconsitencies.
