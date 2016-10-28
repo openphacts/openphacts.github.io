@@ -14,10 +14,6 @@ layout: default
 # Main
 
 
-> To visit and edit the source files of this website at github go to: [https://github.com/openphacts/openphacts.github.io/](https://github.com/openphacts/openphacts.github.io/)
-
-<!-- {{ "https://openphacts.github.io/ops.js/" | absolute_url }} -->
-
 ## Software Components
 
 * [Open PHACTS GitHub projects](/github-Repositories)
