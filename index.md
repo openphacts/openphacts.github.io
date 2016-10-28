@@ -11,24 +11,24 @@ layout: default
 # title: Override with new title
 ---
 
-# Open PHACTS Development
+# Main
 
 
 > To visit and edit the source files of this website at github go to: [https://github.com/openphacts/openphacts.github.io/](https://github.com/openphacts/openphacts.github.io/)
 
 <!-- {{ "https://openphacts.github.io/ops.js/" | absolute_url }} -->
 
-## Projects and Components
+## Software Components
 
-* [List of Open PHACTS github projects](/github-Repositories)
-* [List of external projects](/External-Components)
+* [Open PHACTS GitHub projects](/github-Repositories)
+* [External components and projects](/External-Components)
 
 ## Descriptions, Diagrams.
 
-* [ops-docker docker components](/ops-docker-components)
 * [OPS architecture](/architecture)
+* ['ops-docker' Docker structure](/ops-docker-components)
 * [Docker images at hub.docker.com](/Docker-Hub-Images)
-* [OPS GitHub repos + dependencies](/Repo-Dependencies)
+* [Project dependencies](/Repo-Dependencies)
 * [Linksets](/linksets)
 
 ## Guides
