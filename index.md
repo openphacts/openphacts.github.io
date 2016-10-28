@@ -26,6 +26,7 @@ layout: default
 ## Descriptions, Diagrams.
 
 * [ops-docker docker components](/ops-docker-components)
+* [OPS architecture](/architecture)
 * [Docker images at hub.docker.com](/Docker-Hub-Images)
 * [OPS GitHub repos + dependencies](/Repo-Dependencies)
 
