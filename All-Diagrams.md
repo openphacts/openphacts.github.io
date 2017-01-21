@@ -30,3 +30,7 @@ exclude_from_nav: true
 ### Datasets connected by Linksets
 
 ![](/images/linkset-pairs.svg)
+
+### Datasets connected by Linksets, alternate layout, version 1.5.0
+
+![](/images/LinkSets-1.5.0.png)
