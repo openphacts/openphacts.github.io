@@ -26,12 +26,25 @@ layout: default
 * ['ops-docker' Docker structure](/ops-docker-components)
 * [Docker images at hub.docker.com](/Docker-Hub-Images)
 * [Project dependencies](/Repo-Dependencies)
-* [Linksets](/linksets)
+* [Linkset Diagrams](/linkset-diagrams)
 * [All Diagrams in one page](/All-Diagrams)
+
+## Datasets & Linksets
+
+* [Datasets](/datasets)
+* [Linksets](/linksets)
+
+## Dataset & Linkset Refresh Process
+
+* [Overall Refresh Process](/refresh/refresh-steps)
+* [Notes from past Dataset Refresh](/refresh/refresh-data)
+* [Notes from past Linkset Refresh](/refresh/refresh-linksets)
+* [Dataset Refresh plan for version 2.2](/refresh/data-refresh-2.2)
+* [Linkset Refresh plan for version 2.2](/refresh/link-refresh-2.2)
 
 ## Guides
 
-* [Installing Open PHACTS](http://github.com/openphacts/ops-docker/blob/master/README.md)
+* [Installing Open PHACTS (needs review/update)](http://github.com/openphacts/ops-docker/blob/master/README.md)
 * [Loading additional data](/Loading-additional-data)
 
 ## Software and Data Artifacts
@@ -55,11 +68,10 @@ layout: default
 
 ## Other Resources
 
-* [Main site](http://www.openphactsfoundation.org)
+* [Main Open PHACTS website](http://www.openphactsfoundation.org)
 * [Open PHACTS Foundation](http://www.openphactsfoundation.org)
-* [API](https://dev.openphactsfoundation.org/docs)
+* [Open PHACTS Linked Data API](https://dev.openphactsfoundation.org/docs)
 * [Support](http://support.openphactsfoundation.org)
 * [Forum](http://support.openphacts.org/support/discussions)
 * [Wiki](https://wiki.openphacts.org/index.php/OpenPhacts:Community_Portal)
 * [Webinars](/Webinars)
-
