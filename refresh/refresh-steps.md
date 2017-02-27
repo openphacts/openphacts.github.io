@@ -1,6 +1,6 @@
 ---
 layout: page
-exclude_from_nav: false
+exclude_from_nav: true
 ---
 
 # Build / Refresh Process of OPS Platform Components

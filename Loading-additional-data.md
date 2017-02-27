@@ -1,6 +1,6 @@
 ---
-exclude_from_nav: true
 layout: page
+exclude_from_nav: true
 ---
 
 # Tutorial: Loading additional data in Open PHACTS

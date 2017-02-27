@@ -1,6 +1,6 @@
 ---
 layout: page
-exclude_from_nav: false
+exclude_from_nav: true
 ---
 
 # Data Refresh Plan for OPS version 2.2

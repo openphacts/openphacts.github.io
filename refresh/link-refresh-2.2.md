@@ -1,6 +1,6 @@
 ---
 layout: page
-exclude_from_nav: false
+exclude_from_nav: true
 ---
 
 # Refreshing Linksets v2.2
