@@ -18,7 +18,8 @@ gem "minima", "~> 2.0"
 # versions = JSON.parse(open('https://pages.github.com/versions.json').read)
 # gem 'github-pages'
 # gem 'github-pages', versions['github-pages']
-gem 'github-pages', "117"
+# gem 'github-pages', "117"
+gem 'github-pages', "123"
 # gem "github-pages", group: :jekyll_plugins
 
 # If you have any plugins, put them here!
