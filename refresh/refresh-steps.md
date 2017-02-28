@@ -7,10 +7,13 @@ exclude_from_nav: true
 
 The core components of the OPS platform are:
 
-* Data Querying Service
+* Data Querying Service (i.e., Virtuoso + SPARQL)
 * Identity Mapping Service
 * Linked Data API Service
 
+### Refresh process steps to populate data (into Virtuoso) and Linksets (into IMS).
+
+![Data & Linkset Refresh goals + actions](/images/OPS-Refresh.png)
 
 ## Data Querying Service (Software)
 
