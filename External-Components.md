@@ -1,6 +1,7 @@
 ---
 # title: External
 layout: page
+exclude: true
 exclude_from_nav: true
 ---
 

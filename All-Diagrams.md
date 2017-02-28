@@ -2,6 +2,7 @@
 # title: Diagrams
 layout: page
 exclude_from_nav: true
+exclude: true
 ---
 
 ## All Diagrams
