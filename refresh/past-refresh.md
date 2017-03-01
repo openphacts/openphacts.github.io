@@ -8,30 +8,31 @@ title: Refreshing Past Versions
 
 README from OPS 2.0 data refresh of data sources, from `ops-platform-setup` github project.
 
-- [Data Loaded by the platform](
+- [Data Loaded by the platform (v2.0)](
 https://github.com/openphacts/ops-platform-setup/blob/2.0.0/data-sources/README.md)
 
 
 Changes made in each data refresh (thru v1.4).  From wiki.  Includes sections for 1.5 and 2.0
 updating, but the information does not appear to reflect any changes after v1.4 in August, 2013.
 
-- [OPS datasets update planning](https://wiki.openphacts.org/index.php/OPS_datasets)
+- [OPS datasets update planning (2013)](https://wiki.openphacts.org/index.php/OPS_datasets)
 
 
-Artifactory repository of all version 2.1 RDF data files (except SureChEMBL and DataBank) loaded into the Open PHACTS triple-store.
+Artifactory repository of all version 2.1 RDF data files loaded into the Open PHACTS triple-store
+(except SureChEMBL and DataBank).
 
-- [Artifactory repository of v2.1 RDF data files](https://data.openphacts.org/free/2.1/rdf/)
+- [v2.1 RDF data files](https://data.openphacts.org/free/2.1/rdf/)
 
 
 Artifactory repository of all version 2.1 Linksets.
 
-- [Artifactory repository of v2.1 RDF data files](https://data.openphacts.org/free/2.1/rdf/)
+- [v2.1 Linkset files](https://data.openphacts.org/free/2.1/ims/)
 
 
 2013 technical paper on various aspects of datasets and linksets, with emphasis on Void dataset
 descriptions and predicates used in linksets.
 
--[Dataset Descriptions for the Open Pharmacological Space](
+- Paper: [Dataset Descriptions for the Open Pharmacological Space](
   http://www.openphacts.org/specs/2013/WD-datadesc-20130912/)
 
 
@@ -42,7 +43,7 @@ Open PHACTS wiki page planning 2.0 Linkset refresh.
 
 From IdentityMappingService GitHub project:
 
-- [Linksets To-Do table for v 1.5.1](https://github.com/openphacts/IdentityMappingService/blob/master/doc/ops-1.5.1/ims.csv)
+- [Linksets To-Do table for v1.5.1](https://github.com/openphacts/IdentityMappingService/blob/master/doc/ops-1.5.1/ims.csv)
 
 
 Notes from May, 2015 on updating of Linksets.
