@@ -1,19 +1,8 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-## HOWEVER, github-pages is currently [2016.10.19] dependent on old
-## version of 'minima' theme, version 1.2, which does not have a 'home'
-## layout.  Version 2.0 does have a 'home' layout.
-# layout: home
-layout: default
-# title: Override with new title
+title: Home
+## home layout shows "Posts" header and "Pages" shows title as header, default shows neither.
+layout: page
 ---
-
-# Main
-
-> [to website sources](https://github.com/openphacts/openphacts.github.io/)
 
 ## Software Components
 
@@ -34,13 +23,13 @@ layout: default
 * [Datasets](/datasets)
 * [Linksets](/linksets)
 
-## Dataset & Linkset Refresh Process
+## Dataset & Linkset Build/Refresh Process
 
 * [Overall Refresh Process](/refresh/refresh-steps)
-* [Notes from past Dataset Refresh](/refresh/refresh-data)
-* [Notes from past Linkset Refresh](/refresh/refresh-linksets)
-* [Dataset Refresh plan for version 2.2](/refresh/data-refresh-2.2)
-* [Linkset Refresh plan for version 2.2](/refresh/link-refresh-2.2)
+* [Notes from past Data Refresh](/refresh/refresh-data)
+* [Notes from past Link Refresh](/refresh/refresh-linksets)
+* [Dataset Refresh plan, version 2.2](/refresh/data-refresh-2.2)
+* [Linkset Refresh plan, version 2.2](/refresh/link-refresh-2.2)
 
 ## Guides
 
@@ -75,3 +64,7 @@ layout: default
 * [Forum](http://support.openphacts.org/support/discussions)
 * [Wiki](https://wiki.openphacts.org/index.php/OpenPhacts:Community_Portal)
 * [Webinars](/Webinars)
+
+## To edit the pages in this site:
+
+* [github-pages sources GitHub project](https://github.com/openphacts/openphacts.github.io/)
