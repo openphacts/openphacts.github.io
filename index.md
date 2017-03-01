@@ -21,27 +21,21 @@ layout: page
 ## Dataset & Linkset Refresh
 
 * [Overall Refresh Process](/refresh/refresh-steps)
-* [Notes from past Data Refresh](/refresh/refresh-data)
-* [Notes from past Link Refresh](/refresh/refresh-linksets)
-* [Dataset Refresh plan, version 2.2](/refresh/data-refresh-2.2)
-* [Linkset Refresh plan, version 2.2](/refresh/link-refresh-2.2)
-
-
-<!-- ## Descriptions, Diagrams. -->
-
-<!-- * [Linkset Diagrams](/linkset-diagrams) -->
-<!-- * [All Diagrams in one page](/All-Diagrams) -->
-
-## Guides
-
-* [Installing Open PHACTS (needs review/update)](http://github.com/openphacts/ops-docker/blob/master/README.md)
-* [Loading additional data](/Loading-additional-data)
+* [Past Data Refresh notes](/refresh/past-refresh)
+* Refresh plans:
+    * [Data Refresh for v2.2](/refresh/data-refresh-2.2)
+    * [Link Refresh for v2.2](/refresh/link-refresh-2.2)
 
 ## Software and Data Artifact Repositories
 
 * [openphacts on GitHub](http://github.com/openphacts)
 * [Open PHACTS images at Docker Hub](https://hub.docker.com/u/openphacts/)
 * [Artifactory](https://data.openphacts.org/webapp/#/artifacts/browse/tree/General/)
+
+## Guides
+
+* [Installing Open PHACTS (needs review/update)](http://github.com/openphacts/ops-docker/blob/master/README.md)
+* [Loading additional data](/Loading-additional-data)
 
 ## Projects with documentation:
 
