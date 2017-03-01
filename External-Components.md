@@ -1,13 +1,13 @@
 ---
 layout: page
 exclude_from_nav: true
-title: External Componenets
+title: External Components
 ---
 
 
 ## BridgeDB
 
-[in GitHub](https://github.com/bridgedb/BridgeDb)
+- [in GitHub](https://github.com/bridgedb/BridgeDb)
 
 Java project.  For mapping identifiers (in databases) to each other.  Used by IMS
 ([Identity Mapping Service](https://github.com/openphacts/IdentityMappingService)).

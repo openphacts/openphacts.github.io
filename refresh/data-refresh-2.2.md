@@ -1,10 +1,10 @@
 ---
 layout: page
 exclude_from_nav: true
+title: Dataset Refresh v2.2
 ---
 
-# Data Refresh Plan for OPS version 2.2
-
+# Plans for refreshing Datasets for version 2.2. 
 
 ## chembl
 

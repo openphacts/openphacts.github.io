@@ -134,7 +134,7 @@ Build process:
 Obtaining, building, configuring, and running the Linked Data API REST web service.
 
 
-## Additional components
+## Optional/Supplementary components
 
 * Explorer
 * KNIME
