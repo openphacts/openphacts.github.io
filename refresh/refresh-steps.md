@@ -1,26 +1,34 @@
 ---
 layout: page
 exclude_from_nav: true
-title: Refresh Process
+title: Build Process
 ---
 
-# Build / Refresh Process of OPS Platform Components
+# Refreshing the OPS Platform
 
-The core components of the OPS platform are:
+Producing a new version of the Open PHACTS platform requires both updating the software components
+and populating the software services with updated versions of datasets and linksets.
+
+
+## Core OPS software components
 
 * Data Querying Service (i.e., Virtuoso + SPARQL)
 * Identity Mapping Service
 * Linked Data API Service
 
-### Refresh process steps to populate data (into Virtuoso) and Linksets (into IMS).
+## Steps to build (refresh) Data & Links
 
-![Data & Linkset Refresh goals + actions](/images/OPS-Refresh.png)
+> blue boxes are goal states  
+> green boxes are actions  
+> lines represent dependencies  
+
+![](/images/OPS-Refresh.png)
 
 ## Data Querying Service (Software)
 
 Provides a SPARQL Endpoint for querying pharmacological & life sciences data.
 
-Build & Deloy Process:
+Build & Deploy Process:
 
 - Select Triple-Store product & version (e.g., Virtuoso)
 - Obtain (download)
@@ -37,7 +45,7 @@ Build & Deloy Process:
 
 ## Data Querying Service (Data)
 
-Obtaining, preparing, and loading RDF data into the Data Service triple-store.
+Obtaining, preparing, and loading RDF data into the Data Service triple-store (i.e., Virtuoso)
 
 1. Dataset identification, inventory, selection, location
 
@@ -121,6 +129,15 @@ Build process:
 1. Dump loaded data for future "quick loading".
 
 
-## Linked Data API Service
+## Linked Data API Service (software)
 
 Obtaining, building, configuring, and running the Linked Data API REST web service.
+
+
+## Additional components
+
+* Explorer
+* KNIME
+* ops.js
+* ops search
+* Java library to access Linked Data API.

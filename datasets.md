@@ -4,6 +4,8 @@ exclude_from_nav: true
 title: Datasets
 ---
 
+## Lists from past versions
+
 List of datasets in Open PHACTS version 2.0 (from wiki).
 
 Does not include "SureChEMBL", which was added in version 2.1.
@@ -16,6 +18,8 @@ Missing BAO, Caloha, Disease Ontology, ncats, ocrs, Sure ChEMBL
 
 * [What data is included?](http://www.openphacts.org/2/sci/data.html)
 
+
+----
 
 # List of Datasets for version 2.2
 
