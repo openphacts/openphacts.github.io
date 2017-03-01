@@ -1,9 +1,10 @@
 ---
 layout: page
 exclude_from_nav: true
+
+title: Linkset Refresh v2.2
 ---
 
-# Refreshing Linksets v2.2
 
 ## chembl
 
@@ -23,20 +24,30 @@ ChEMBL version 22.1:
 
 ## uniprot
 
-GitHub project `ops-uniprot-linksets`.  Contains 13 *.sparql query files to create Linkset files
-from UniProt data.  `data` directory appears to contain 12 *.ttl.gz files resulting from
+The GitHub project 'ops-uniprot-linksets' contains 13 *.sparql query files to create Linkset files
+from UniProt data.  The 'data' directory appears to contain 12 *.ttl.gz files resulting from
 executing the 13 *.sparql queries.  The `load.xml` contains the 12 files in the 'data'
-directory.  The one *.sparql file that does not seem to be included in the data is called: `uniprot_ipi.sparql`.
+directory.  The one *.sparql file that does not seem to be included in the data is called
+'uniprot_ipi.sparql'.
 
-[ops-uniprot-linksets](https://github.com/openphacts/ops-uniprot-linksets)
+- GitHub Project: [ops-uniprot-linksets](https://github.com/openphacts/ops-uniprot-linksets)
+
+## wikipathways
+
+New Linksets related to WikiPathways will be created by Egon W. and the folks at Maastricht.
+
+They will also be creating some (or all?) of the linksets for the following:
+
+* chebi
+* goa
+* hgnc
+* Ensembl
 
 ## chebi
 
 ## goa
 
 ## hgnc
-
-## wikipathways
 
 ## Ensembl
 
