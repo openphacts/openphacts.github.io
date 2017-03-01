@@ -4,26 +4,21 @@ title: Home
 layout: page
 ---
 
-## Software Components
-
-* [Open PHACTS GitHub projects](/github-Repositories)
-* [External components and projects](/External-Components)
-
-## Descriptions, Diagrams.
+## OPS Software Components
 
 * [OPS architecture](/architecture)
+* [Project dependencies](/Repo-Dependencies)
+* [Open PHACTS GitHub projects](/github-Repositories)
+* [External components and projects](/External-Components)
 * ['ops-docker' Docker structure](/ops-docker-components)
 * [Docker images at hub.docker.com](/Docker-Hub-Images)
-* [Project dependencies](/Repo-Dependencies)
-* [Linkset Diagrams](/linkset-diagrams)
-* [All Diagrams in one page](/All-Diagrams)
 
 ## Datasets & Linksets
 
 * [Datasets](/datasets)
 * [Linksets](/linksets)
 
-## Dataset & Linkset Build/Refresh Process
+## Dataset & Linkset Refresh
 
 * [Overall Refresh Process](/refresh/refresh-steps)
 * [Notes from past Data Refresh](/refresh/refresh-data)
@@ -31,29 +26,32 @@ layout: page
 * [Dataset Refresh plan, version 2.2](/refresh/data-refresh-2.2)
 * [Linkset Refresh plan, version 2.2](/refresh/link-refresh-2.2)
 
+
+<!-- ## Descriptions, Diagrams. -->
+
+<!-- * [Linkset Diagrams](/linkset-diagrams) -->
+<!-- * [All Diagrams in one page](/All-Diagrams) -->
+
 ## Guides
 
 * [Installing Open PHACTS (needs review/update)](http://github.com/openphacts/ops-docker/blob/master/README.md)
 * [Loading additional data](/Loading-additional-data)
 
-## Software and Data Artifacts
+## Software and Data Artifact Repositories
 
 * [openphacts on GitHub](http://github.com/openphacts)
 * [Open PHACTS images at Docker Hub](https://hub.docker.com/u/openphacts/)
 * [Artifactory](https://data.openphacts.org/webapp/#/artifacts/browse/tree/General/)
 
-## Projects with own "GitHub Pages" websites:
+## Projects with documentation:
 
 * [OPS_LinkedDataApi](http://openphacts.github.io/OPS_LinkedDataApi/)
-* [ops.js](http://openphacts.github.io/ops.js/)
+* [OPS_LinkedDataApi wiki](http://github.com/openphacts/OPS_LinkedDataApi/wiki/)
+* [explorer2 wiki](http://github.com/openphacts/explorer2/wiki/)
+* [ops-platform-setup wiki](http://github.com/openphacts/ops-platform-setup/wiki/)
 * [ops-crs](http://openphacts.github.io/ops-crs/)
-
-## Projects with GitHub Wikis
-
-* [OPS_LinkedDataApi](http://github.com/openphacts/OPS_LinkedDataApi/wiki/)
-* [explorer2](http://github.com/openphacts/explorer2/wiki/)
-* [ops-platform-setup](http://github.com/openphacts/ops-platform-setup/wiki/)
-* [ops-search](http://github.com/openphacts/ops-search/wiki/)
+* [ops.js](http://openphacts.github.io/ops.js/)
+* [ops-search wiki](http://github.com/openphacts/ops-search/wiki/)
 
 ## Other Resources
 
