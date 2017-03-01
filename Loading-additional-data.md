@@ -1,6 +1,5 @@
 ---
 layout: page
-exclude: true
 exclude_from_nav: true
 ---
 
@@ -10,7 +9,7 @@ exclude_from_nav: true
 
 We'll assume you have already [installed Open PHACTS](https://github.com/openphacts/ops-docker) using Docker, and that you have [Virtuoso](http://virtuoso.openlinksw.com/) running as the Docker container `ops-virtuoso`, exposed on http://localhost:3003/sparql (or equivalent hostname). Similarly you will have `ops-api` exposed on http://localhost:3002/ and `ops-ims` on http://localhost:3004/QueryExpander/
 
-> **Warning**: In this tutorial we'll use an `ops-docker` installation on http://heater.cs.man.ac.uk:3002/ - please note that this service is only for demo purposes and might not remain available or in the same state. It should not be accessed for production use as it runs on low-spec hardware. 
+> **Warning**: In this tutorial we'll use an `ops-docker` installation on http://heater.cs.man.ac.uk:3002/ - please note that this service is only for demo purposes and might not remain available or in the same state. It should not be accessed for production use as it runs on low-spec hardware.
 
 
 The RDF data loaded in Open PHACTS come from [different sources](https://github.com/openphacts/ops-platform-setup/blob/2.0.0/data-sources/README.md) - some of which require manual download or transformation.
@@ -229,7 +228,7 @@ Now we need to move the data to be available from within Virtuoso's Docker conta
 
 ```shell
     cd ~/Downloads
-    mkdir uniprot    
+    mkdir uniprot
     ls -al uni*gz  # Should just be 3 files made just now
 
     ssh heater.cs.man.ac.uk mkdir -p data
@@ -291,7 +290,7 @@ Next we'll start the bulk loading [staging script](https://github.com/stain/virt
 
 ```
 stain@heater:~/data$ docker run -v /home/stain/data:/staging:ro --volumes-from ops-virtuosodata -it stain/virtuoso staging.sh
- * Starting Virtuoso Open Source Edition 7.2  virtuoso-opensource-7                                                                                                                                                                                                                       
+ * Starting Virtuoso Open Source Edition 7.2  virtuoso-opensource-7
 ```
 
 Note that starting Virtuoso might take some time before you should see:
@@ -377,7 +376,7 @@ Note that when data loading finishes, the `staging.sh` script will force a `comm
 ```
 Checkpointing
 Staging finished, total triples: 2934990243
- * Stopping Virtuoso Open Source Edition 7.2 virtuoso-opensource-7   
+ * Stopping Virtuoso Open Source Edition 7.2 virtuoso-opensource-7
 ```
 
 (Note that _total triples_ refers to triples across all graphs, including pre-existing data)
@@ -1030,7 +1029,7 @@ http://heater.cs.man.ac.uk:3002/target?uri=http%3A%2F%2Fidentifiers.org%2Fensemb
 ## What's next?
 
 As you see there are still many manual steps in a data update.  Some of these can be automated, but things like updating queries and checking linksets still requires manual work. However it would be good to have this process
-more reproducible and 
+more reproducible and
 
 We have been working towards an automated way to update a dataset for Open PHACTS, using Apache Maven and a [data-maven-plugin](https://github.com/stain/data-maven-plugin) - which we use to populate a Maven repository on [data.openphacts.org](https://data.openphacts.org/maven/org/openphacts/data/).
 
@@ -1073,4 +1072,4 @@ As well as the version of the packaged data archive:
 
 > **Tip:** We can increase the third _patch_ digit `.0` if we are improving the packaging of an existing upstream version.
 
-We working towards making the data archives be valid [Research Objects](http://www.researchobject.org/) for propagation of provenance metadata, and to automate downloading and loading of a set of such data archives into the Open PHACTS platform. 
+We working towards making the data archives be valid [Research Objects](http://www.researchobject.org/) for propagation of provenance metadata, and to automate downloading and loading of a set of such data archives into the Open PHACTS platform.

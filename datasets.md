@@ -1,6 +1,5 @@
 ---
-layout: default
-exclude: true
+layout: page
 exclude_from_nav: true
 ---
 

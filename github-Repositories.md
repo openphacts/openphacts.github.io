@@ -1,13 +1,12 @@
 ---
 # title: Projects
 layout: page
-exclude: true
 exclude_from_nav: true
 ---
 
 # openphacts github Repositories
 
-[visit/edit this page at github](https://github.com/openphacts/openphacts.github.io/blob/master/github-Repositories.md) 
+[visit/edit this page at github](https://github.com/openphacts/openphacts.github.io/blob/master/github-Repositories.md)
 
 
 
@@ -62,7 +61,7 @@ PHP Dependencies:
 - Moriarity
 - ARC
 
-Web Service Dependencies:  
+Web Service Dependencies:
 
 - queryExpander
 - IMS
@@ -74,7 +73,7 @@ Java.  Last edited 2016/04.
 
 The Standalone Query Expander.
 
-Depends on repos:  
+Depends on repos:
 
 * [BridgeDb](https://github.com/openphacts/BridgeDb)
 * [Validator](https://github.com/openphacts/Validator)
@@ -150,7 +149,7 @@ JavaScript, last edited 2016/01.
 has Dockerfile for testing
 
 * Used by `explorer2` and `ops-html-widgets` and http://www.biojs.io/d/openphacts-vis-compoundinfo
-* Published on https://www.npmjs.com/package/ops.js 
+* Published on https://www.npmjs.com/package/ops.js
 * Can be executed standalone as it includes comprehensive tests of API (using node.js)
 
 Available as an npm package (for 1.5): <https://www.npmjs.com/package/ops.js>

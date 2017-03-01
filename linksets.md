@@ -1,7 +1,6 @@
 ---
 layout: page
 exclude_from_nav: true
-exclude: true
 ---
 
 # Linksets
