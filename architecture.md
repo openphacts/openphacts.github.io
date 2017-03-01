@@ -52,6 +52,10 @@ them:
 The Docker service/container is named "ims", backed by the Docker image named
 "identitymappingservice", which is derived from the GitHub project/app named "queryExpander".
 
+A Maven repository of the IMS, QueryExpander, and Validator source code can be found here:
+
+* [Maven software repository at Manchester](
+http://repository.mygrid.org.uk/artifactory/ops/uk/ac/manchester/cs/)
 
 ### IRS
 

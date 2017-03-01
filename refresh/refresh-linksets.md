@@ -21,6 +21,14 @@ Notes from May, 2015 on updating of Linksets.
 - [IMS linksets 20150518](https://wiki.openphacts.org/index.php/IMS_linksets_20150518)
 
 
+14 *.ttl files from `ops-platform-setup` GitHub project to load into Open PHACTS.
+
+Q: Is this still true?  Should these be loaded for version 2.2, or superceded by other
+files or processes?
+
+- [Linkset files to load](
+https://github.com/openphacts/ops-platform-setup/tree/2.0.0/linksets_dev)
+
 
 ## BridgeDb
 
@@ -30,5 +38,6 @@ BridgeDb page, referencing 5 locations of Linkset data.
 
 README for the GitHub project for creating the BridgeDb Linksets.
 
-- [Create BridgeDb Identity Mapping files](https://github.com/egonw/create-bridgedb-hmdb/blob/master/README.md)
+- [Create BridgeDb Identity Mapping files](
+  https://github.com/egonw/create-bridgedb-hmdb/blob/master/README.md)
 
