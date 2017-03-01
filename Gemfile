@@ -20,7 +20,8 @@ ruby RUBY_VERSION
 # gem 'github-pages', versions['github-pages']
 # gem 'github-pages', "117"
 # gem 'github-pages', "123"
-gem 'github-pages', "123", group: :jekyll_plugins
+# gem 'github-pages', "123", group: :jekyll_plugins
+gem 'github-pages', "123", :group => :jekyll_plugins
 # gem "github-pages", group: :jekyll_plugins
 
 # If you have any plugins, put them here!
