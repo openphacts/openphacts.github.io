@@ -9,7 +9,7 @@ ruby RUBY_VERSION
 
 # This is the default theme for new Jekyll sites. And possibly only theme
 # supported by github-pages.
-gem "minima", "~> 2.0"
+# gem "minima", "~> 2.0"
 
 # gem "github-pages", group: :jekyll_plugins
 
@@ -19,13 +19,15 @@ gem "minima", "~> 2.0"
 # gem 'github-pages'
 # gem 'github-pages', versions['github-pages']
 # gem 'github-pages', "117"
-gem 'github-pages', "123"
+# gem 'github-pages', "123"
+gem 'github-pages', "123", group: :jekyll_plugins
 # gem "github-pages", group: :jekyll_plugins
 
 # If you have any plugins, put them here!
-# group :jekyll_plugins do
-#   gem "jekyll-feed", "~> 0.6"
-# end
+group :jekyll_plugins do
+  # gem "jekyll-feed", "~> 0.6"
+  gem "jekyll-feed", "~> 0.9.1"
+end
 
 ## https://github.com/jch/html-pipeline
 # gem 'html-pipeline'
