@@ -1,6 +1,7 @@
 ---
 layout: page
 exclude_from_nav: true
+title: Docker Components
 ---
 
 This diagram shows the dependencies between the docker services (containers), images, and build processes.

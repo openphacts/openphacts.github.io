@@ -1,9 +1,10 @@
 ---
 layout: page
 exclude_from_nav: true
+title: Loading Additional Data Tutorial
 ---
 
-# Tutorial: Loading additional data in Open PHACTS
+### Tutorial on loading additional data into Open PHACTS
 
 > Q: How can I update RDF datasets in Open PHACT's RDF store?
 

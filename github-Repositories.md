@@ -2,6 +2,7 @@
 # title: Projects
 layout: page
 exclude_from_nav: true
+title: Projects
 ---
 
 # openphacts github Repositories
@@ -12,8 +13,7 @@ exclude_from_nav: true
 
 ----
 
-Assembly of Open PHACTS Projects
----------------
+# Building and Deploying the OPS Platform
 
 ----
 
@@ -45,8 +45,8 @@ platform w/o data
 
 ----
 
-Core Open PHACTS Components
----------------
+# Core OPS Components
+
 ----
 
 ## [OPS_LinkedDataApi](http://github.com/openphacts/OPS_LinkedDataApi)

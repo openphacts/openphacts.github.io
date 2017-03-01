@@ -1,6 +1,7 @@
 ---
 layout: page
 exclude_from_nav: true
+title: Refresh Process
 ---
 
 # Build / Refresh Process of OPS Platform Components

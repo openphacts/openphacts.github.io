@@ -1,9 +1,8 @@
 ---
 layout: page
 exclude_from_nav: true
+title: Linkset Building
 ---
-
-# Refreshing Linksets
 
 ## General
 

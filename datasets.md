@@ -1,10 +1,8 @@
 ---
 layout: page
 exclude_from_nav: true
+title: Datasets
 ---
-
-# Datasets
-
 
 List of datasets in Open PHACTS version 2.0 (from wiki).
 

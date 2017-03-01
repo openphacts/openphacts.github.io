@@ -1,10 +1,9 @@
 ---
 layout: page
 exclude_from_nav: true
+title: System Architecture
 ---
 
-OPS Architecture
---------------
 
 This diagram shows top-level components of the core Open PHACTS platform.
 

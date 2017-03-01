@@ -1,9 +1,10 @@
 ---
 layout: page
 exclude_from_nav: true
+
+title: Dataset Building
 ---
 
-# Refreshing Datasets
 
 README from OPS 2.0 data refresh of data sources, from `ops-platform-setup` github project.
 

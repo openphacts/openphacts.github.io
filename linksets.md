@@ -1,9 +1,8 @@
 ---
 layout: page
 exclude_from_nav: true
+title: Linksets
 ---
-
-# Linksets
 
 
 Table of version 2.1 production Linksets provided by QueryExpander API.  Click on the number in
