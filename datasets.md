@@ -86,7 +86,7 @@ Gene Ontology Annotations of other data entities
 
 ## ncats
 
-Phenotypic Assays.
+Phenotypic Assays. The Lilly OIDD data.
 
 
 ## nextprot

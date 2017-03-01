@@ -1,11 +1,11 @@
 ---
-title: All Diagrams
 layout: page
 exclude_from_nav: true
+
+title: All Diagrams
 ---
 
-
-## All Diagrams
+A collection of diagrams in one page.
 
 
 ### High-Level Architecture
