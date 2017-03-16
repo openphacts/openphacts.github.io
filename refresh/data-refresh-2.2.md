@@ -6,6 +6,9 @@ title: Dataset Refresh v2.2
 
 # Plans for refreshing Datasets for version 2.2. 
 
+Plans for refreshing Links are here:  [Link Refresh for v2.2](/refresh/link-refresh-2.2).
+
+
 ## chembl
 
 Download new versions of RDF files form ChEMBL FTP site.
@@ -13,7 +16,7 @@ Download new versions of RDF files form ChEMBL FTP site.
 FTP site: [ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBL-RDF/22.1/](
 ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBL-RDF/22.1/)
 
-Files to download:
+Plan: All files will be downloaded and included in OPS:
 
 ```
 cco.ttl.gz
@@ -37,9 +40,15 @@ chembl_22.1_unichem.ttl.gz
 void.ttl.gz
 ```
 
-Put into RDF Graph:  `<http://www.ebi.ac.uk/chembl>`
+Put into RDF Graph:  `<http://www.ebi.ac.uk/chembl>` ?
 
-ChEMBL Linkset files can be downloaded from the same FTP directory.  Those file names end with "_ls.ttl.gz".
+ChEMBL Linkset files can be downloaded from the same FTP directory.  Those file names end with
+"_ls.ttl.gz".
+The list of ChEMBL linkset files to be loaded for v2.2 is on this page:
+   [Link Refresh for v2.2](/refresh/link-refresh-2.2)
+
+**Note:**  The `chembl_22.1_indication.ttl.gz` file is new to ChEMBL and not previously loaded
+  into past versions of Open PHACTS.
 
 
 ## uniprot
@@ -67,19 +76,27 @@ Put into RDF Graph:  `<http://purl.uniprot.org/enzyme>`
 
 ## wikipathways
 
-Egon & crew will create new versions.  When ready, download the following files:
+Egon & crew will create new versions.  When ready, download the following files.
+The `20170310` part is the version number. The data appears to be updated monthly.
 
 ```
-http://data.wikipathways.org/20170210/rdf/voidGpml.ttl
-http://data.wikipathways.org/20170210/rdf/voidWp.ttl
-http://data.wikipathways.org/20170210/rdf/wikipathways-20170210-rdf-gpml.zip
-http://data.wikipathways.org/20170210/rdf/wikipathways-20170210-rdf-wp.zip
+http://data.wikipathways.org/20170310/rdf/voidWp.ttl
+http://data.wikipathways.org/20170310/rdf/wikipathways-20170310-rdf-wp.zip
 ```
 
-The `20170210` part is the version number.  The data appears to be updated monthly.
+The following two files were also download and loaded into Virtuoso for OPS version 2.1.  But
+they only contain information about the visual Pathway diagrams, rather than logical definition
+of each Pathway.  As a result, there's not really a good reason to include them in Open PHACTS.
+Excluding them looks like it would save on the order of 12+ million triples from 1841 data
+files.   So they will be excluded from version 2.2.
+
+```
+http://data.wikipathways.org/20170310/rdf/voidGpml.ttl
+http://data.wikipathways.org/20170310/rdf/wikipathways-20170310-rdf-gpml.zip
+```
 
 The '*.zip' files will need to be _unpacked_ before they can be loaded.  Each 'zip' file
-contains many RDF files.
+contains RDF files.  The 0210 version contains 1841 ttl files inide the 'zip' file.
 
 Put into RDF Graph:  `<http://www.wikipathways.org>`
 
@@ -88,10 +105,12 @@ Put into RDF Graph:  `<http://www.wikipathways.org>`
 
 Open PHACTS Chemistry Registration Service.
 
-New versions will be created by Valery.  Creation of the OCRS data depends on ChEMBL data and
-other chemistry datasets (which ones?).
+New versions will be created by Valery.  Creation of the OCRS data depends on ChEMBL and
+WIkiPathways data and other chemistry datasets (which ones?).
 
-Put into RDF Graph:  `<http://ops.rsc.org>`
+Put into RDF Graph (for version 2.1):  `<http://ops.rsc.org>`
+
+For version 2.2, ocrs should be put into a different RDF Graph URI.
 
 
 # Other Datasets
