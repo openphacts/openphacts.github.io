@@ -32,6 +32,10 @@ directory.  The one *.sparql file that does not seem to be included in the data 
 
 - GitHub Project: [ops-uniprot-linksets](https://github.com/openphacts/ops-uniprot-linksets)
 
+Q: What about that "uniprot_ipi.sparql' file that is created but does not appear to be loaded
+into IMS?
+
+
 ## wikipathways
 
 New Linksets related to WikiPathways will be created by Egon W. and the folks at Maastricht.
@@ -43,7 +47,10 @@ They will also be creating some (or all?) of the linksets for the following:
 * hgnc
 * Ensembl
 
+
 ## chebi
+
+## ocrs (Chemistry)
 
 ## goa
 

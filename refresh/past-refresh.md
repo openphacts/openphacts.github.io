@@ -8,6 +8,8 @@ title: Refreshing Past Versions
 
 README from OPS 2.0 data refresh of data sources, from `ops-platform-setup` github project.
 
+At the end is a count of number of triples from each dataset.
+
 - [Data Loaded by the platform (v2.0)](
 https://github.com/openphacts/ops-platform-setup/blob/2.0.0/data-sources/README.md)
 
@@ -29,6 +31,12 @@ Artifactory repository of all version 2.1 Linksets.
 - [v2.1 Linkset files](https://data.openphacts.org/free/2.1/ims/)
 
 
+Count of number of triples in Virtuoso from each dataset for version 2.1. November, 2016.
+
+- [v2.1 triple counts by dataset](
+https://wiki.openphacts.org/index.php/2.1_testing_aws#Graph_Comparison_between_beta_2.1_and_AWS)
+
+
 2013 technical paper on various aspects of datasets and linksets, with emphasis on Void dataset
 descriptions and predicates used in linksets.
 
@@ -43,7 +51,8 @@ Open PHACTS wiki page planning 2.0 Linkset refresh.
 
 From IdentityMappingService GitHub project:
 
-- [Linksets To-Do table for v1.5.1](https://github.com/openphacts/IdentityMappingService/blob/master/doc/ops-1.5.1/ims.csv)
+- [Linksets To-Do table for v1.5.1](
+https://github.com/openphacts/IdentityMappingService/blob/master/doc/ops-1.5.1/ims.csv)
 
 
 Notes from May, 2015 on updating of Linksets.
