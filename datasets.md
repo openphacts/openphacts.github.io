@@ -47,6 +47,12 @@ Chemistry ontology
 
 Chemical compounds and Assays.
 
+Schema diagrams (from version 18, 2013(?)):
+
+* [Summary](https://www.ebi.ac.uk/chembl/extra/RDF/chembl_18_rdf_summary.png)
+* [Full](https://www.ebi.ac.uk/chembl/extra/RDF/chembl_18_rdf_full_schema.png)
+* [RDF version](https://www.ebi.ac.uk/chembl/extra/RDF/chembl_rdf_schema.png)
+
 
 ## conceptwiki
 
@@ -121,3 +127,10 @@ Not really a dataset.  Contains meta-data about the Open PHACTS Datasets
 ## wikipathways
 
 Biological Pathways
+
+Papers
+
+* [Using the Semantic Web for Rapid Integration of WikiPathways with Other Biological Online Data Resources](
+    http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004989)
+* [Reactome from a WikiPathways Perspective](
+    http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004941)
