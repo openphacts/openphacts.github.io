@@ -22,6 +22,11 @@ The `load.xml` file that IMS uses to load the Linksets used in v2.1
 - [load.xml](https://data.openphacts.org/free/2.1/ims/linksets/load.xml)
 
 
+Short identifiers (max 4 chars) for the datasets that are the source and target of Linksets in IMS.
+
+[Linkset source & target System Codes](http://www.bridgedb.org/documentation/system-codes/)
+
+
 Diagram of datasets connected by Linksets (likely from version 1.5.0)
 
 ![Diagram of Linksets.](/images/linkset-pairs.svg)
