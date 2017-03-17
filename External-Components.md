@@ -34,6 +34,8 @@ project:  [ops-search](http://github.com/openphacts/ops-search).
 
 ## ConceptWiki
 
+**NOTE:  as of March, 2017 ConceptWiki appears to be permantly defunct and offline**
+
 System for associating terms with identifiers and categories, finding synonyms.
 
 One of the core Open PHACTS datasets plus provides a web service endpoint for some
@@ -46,7 +48,7 @@ From NBIC. Project is mostly dormant.  Not updated since 2013-2014.
 List of semantic types used to tag Open PHACTS entities.
 
 [ConceptWiki semantic types](
-  http://support.openphacts.org/support/solutions/articles/169690-conceptwiki-uuids-for-most-frequent-semantic-tags)
+ http://support.openphacts.org/support/solutions/articles/169690-conceptwiki-uuids-for-most-frequent-semantic-tags)
 
 
 ## ElasticSearch
