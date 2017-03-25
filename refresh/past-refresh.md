@@ -69,6 +69,33 @@ files or processes?
 https://github.com/openphacts/ops-platform-setup/tree/2.0.0/linksets_dev)
 
 
+Linkset file collections created within Open PHACTS project:
+
+- uniprot
+
+
+Linkset file collections obtained from external organizations (or uncertain):
+
+- aers
+- conceptwiki
+- disgenet
+- drugbank
+- nextprot
+- wikipathways
+
+
+Linkset file collections downloaded using Maven projects in GitHub.
+
+- [ops-chembl](https://github.com/openphacts/ops-chembl-linksets)
+- [ops-ensembl-homosapiens](https://github.com/openphacts/ops-ensembl-linksets/tree/master/homosapiens)
+- [ops-ensembl-musmusculus](https://github.com/openphacts/ops-ensembl-linksets/tree/master/musmusculus)
+- [ops-hgnc](https://github.com/openphacts/ops-hgnc-linkset)
+- [ops-hmdb](https://github.com/openphacts/ops-hmdb-linksets)
+- [ops-rsc](https://github.com/openphacts/ops-rsc-linksets)
+- [ops-rsc-surechembl](https://github.com/openphacts/ops-surechembl-linksets)
+- [ops-surechembl](https://github.com/openphacts/ops-surechembl-linksets)
+
+
 ## BridgeDb
 
 BridgeDb page, referencing 5 locations of Linkset data.
